@@ -73,7 +73,7 @@ res.render() - The "res" is the response object, while "render()"
      parentheses closes the "get" route.
 */
 app.get("/", function(req, res) {
-  res.render("index", {title: "Hello"})
+  res.render("index", {title: "Home"})
 })
 
 /* ***********************
