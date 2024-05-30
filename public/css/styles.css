@@ -4,3 +4,121 @@
 *:after {
   box-sizing: border-box;
 }
+
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: "Roboto Slab", serif;
+}
+
+p, ul {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+.divHeader {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 10% 0 10%;
+}
+
+.headerChild1 {
+  display: flex;
+  justify-content: left;
+  font-size: 2.2rem; 
+}
+
+.headerChild1 a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+}
+
+#tools {
+  display: flex;
+  justify-content: right;
+  font-family: "Alegreya Sans SC", sans-serif;
+}
+
+#tools a {
+  text-decoration: none;
+}
+
+nav {
+  flex-direction: column;
+  background-color: #292929;
+  font-family: "Open Sans", sans-serif;
+  list-style: none;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+nav a {
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.5rem;
+  display: block;
+}
+
+nav ul {
+  
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  flex: 1 1 100%;
+  
+}
+
+nav a:hover {
+  border: 2px solid #FFF;
+}
+
+#mainDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.delorean {
+  background-image: url("/images/vehicles/delorean.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 250px;
+}
+
+.delAd {
+  color:#05A2E6;
+  width: 200px;
+  background-color: #FFF;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 1rem;
+  position: relative;
+  top: 10%;
+  left: 10%;
+  opacity: 90%;
+}
+
+.delAd h3 {
+  font-size: 25px;
+  margin: 0;
+}
+
+.delAd button {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  background-color: #05A2E6;
+  color:#000;
+  border: none;
+  padding: 1rem;
+  width: 100%;
+}
+
+
+
